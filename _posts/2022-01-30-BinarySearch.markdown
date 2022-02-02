@@ -19,13 +19,14 @@ categories: jekyll update
   - 입력 데이터가 개수가 많은 문제에 input() 함수를 사용하면 동작 속도가 느려서 시간 초과로 오답 판정을 받을 수 있다.
   - 이처럼 입력 데이터가 많은 문제는 sys 라이브러리의 readline() 함수를 이용하면 시간 초과를 피할 수 있다.
 
-  ```python
+
+```python
   import sys
   #하나의 문자열 데이터 입력받기
   input_data=sys.stdin.readline().rstrip()
 
   print(input_data)
-  ```
+```
 
 ### 예제 1) 부품 찾기
 　손님이 요청한 부품 번호의 순서대로 부품을 확인해 부품이 있으면 yes를, 없으면 no를 출력한다.
